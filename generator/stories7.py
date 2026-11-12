@@ -1,0 +1,66 @@
+def OC(ref=("","")): return sc(ref, "outro2", CTA)
+STORIES.update({
+"catch": [
+ g(("THE GREAT","CATCH"), "Fishermen worked all night and caught nothing. Then Jesus gave one command.", "dawn", [(P, 60, 150, .45, 0)], [("boat", 110, 150)]),
+ g(("AN EMPTY","NET"), "Peter and his friends were exhausted. Their nets were empty.", "sea", [(P, 90, 150, .45, 0)], [("boat", 90, 150)]),
+ g(("TRY","AGAIN"), "Jesus told Peter: go out to deeper water, and let down your nets.", "day", [(J, 60, 172, .55, 0), (P, 130, 172, .55, 1)], [("crowd", 20, 90, 4, 176)]),
+ g(("A BREAKING","NET"), "Peter obeyed. The nets filled with so many fish they began to tear.", "sea", [(P, 90, 150, .45, 0)], [("boat", 90, 150), ("sparks", 90, 140, 8)]),
+ g(("FISHERS","OF PEOPLE"), "Peter fell on his knees. Jesus said: from now on, you will catch people. They left everything, and followed him.", "dawn", [(J, 70, 172, .6, 0), (P, 125, 172, .55, 1)], [("glow", 90, 130, 24)]),
+ OC(("LUKE","5"))],
+"paralytic": [
+ g(("THROUGH","THE ROOF"), "Four friends carried a paralyzed man to Jesus. But the house was too crowded, so they cut a hole in the roof.", "day", [(D, 130, 172, .5, 0)], [("house", 90, 50, 44), ("crowd", 20, 90, 5, 176)]),
+ g(("NO WAY","IN"), "The house was packed, and nobody would let them through.", "day", [(P, 60, 172, .5, 0)], [("house", 110, 36, 36), ("crowd", 20, 90, 5, 176)]),
+ g(("LOWERED","DOWN"), "So they climbed up, opened the roof, and lowered their friend right in front of Jesus.", "day", [(J, 90, 172, .6, 0)], [("house", 90, 60, 50)]),
+ g(("YOUR SINS","ARE FORGIVEN"), "Jesus saw their faith, and said: your sins are forgiven. The religious leaders were angry.", "day", [(J, 70, 172, .6, 0), (So, 140, 172, .55, 1)], [("glow", 70, 130, 20)]),
+ g(("GET UP","AND WALK"), "Then Jesus said: get up, take your mat, and go home. The man stood up, and walked out.", "day", [(J, 70, 172, .6, 0), (D, 130, 172, .55, 1)], [("light", 130), ("glow", 130, 120, 24)]),
+ OC(("MARK","2"))],
+"sower": [
+ g(("THE FARMER","AND SEEDS"), "A farmer scattered seeds. But only some of them grew.", "day", [(D, 80, 172, .6, 0)], [("tree", 150, 90)]),
+ g(("THE PATH","AND ROCKS"), "Some seeds fell on the path, and birds ate them. Others fell on rocks, and dried up fast.", "desert", [(D, 60, 172, .5, 0)], [("dove", 130, 80)]),
+ g(("THE","THORNS"), "Some fell among thorns, which grew up and choked them.", "dusk", [(D, 90, 172, .55, 0)], []),
+ g(("GOOD","SOIL"), "But seeds in good soil grew, and gave a huge harvest.", "dawn", [(D, 90, 172, .55, 0)], [("tree", 40, 80), ("tree", 150, 80), ("sun", 90, 110)]),
+ g(("THE","MEANING"), "Jesus explained: the seed is God's word. The soil is the heart that hears it.", "day", [(J, 90, 172, .6, 0)], [("crowd", 20, 90, 4, 176), ("glow", 90, 130, 22)]),
+ OC(("MATTHEW","13"))],
+"lostsheep": [
+ g(("THE LOST","SHEEP"), "A shepherd has one hundred sheep. One goes missing. What does he do?", "dusk", [(D, 70, 172, .6, 0)], [("sheep", 120, 170), ("sheep", 145, 172)]),
+ g(("ONE","MISSING"), "That night, he counted his sheep, and found that one was gone.", "night", [(D, 90, 172, .6, 0)], [("sheep", 30, 170), ("sheep", 150, 172), ("moon", 140, 40)]),
+ g(("THE","SEARCH"), "He left the ninety nine, and searched the hills in the dark, until he found it.", "dark", [(D, 60, 172, .55, 0, 60)], [("mount", 150, 70, 40)]),
+ g(("FOUND","AT LAST"), "He lifted it onto his shoulders, and carried it home, full of joy.", "dawn", [(D, 90, 172, .6, 0)], [("sheep", 90, 130), ("glow", 90, 120, 26)]),
+ g(("HEAVEN","REJOICES"), "Jesus said: there is more joy in heaven over one person who comes back, than over ninety nine who never left.", "day", [(J, 90, 172, .6, 0)], [("sheep", 30, 172), ("sheep", 150, 172), ("glow", 90, 130, 22)]),
+ OC(("LUKE","15"))],
+"tenlepers": [
+ g(("TEN MEN","HEALED"), "Ten men with a terrible disease begged Jesus for help. But only one came back to say thanks.", "desert", [(D, 50, 172, .5, 0), (D, 90, 172, .5, 0), (D, 130, 172, .5, 0)], []),
+ g(("OUTCASTS","OF THE TOWN"), "They were lepers, forced to live outside the town, and far from their families.", "desert", [(D, 50, 172, .5, 0), (D, 90, 172, .5, 0), (D, 130, 172, .5, 0)], []),
+ g(("HAVE","MERCY"), "They shouted: Jesus, have mercy on us. He told them to go show themselves to the priests.", "day", [(J, 140, 172, .6, 1), (D, 60, 172, .5, 0)], []),
+ g(("HEALED","ON THE WAY"), "As they walked, all ten were healed.", "day", [(D, 50, 172, .5, 0), (D, 90, 172, .5, 0), (D, 130, 172, .5, 0)], [("glow", 90, 120, 40), ("sparks", 90, 140, 10)]),
+ g(("ONE","CAME BACK"), "Only one returned, fell at Jesus's feet, and thanked him. Jesus asked: where are the other nine?", "day", [(J, 80, 172, .6, 0), (D, 130, 176, .45, 1)], [("glow", 80, 130, 20)]),
+ OC(("LUKE","17"))],
+"balaam": [
+ g(("THE TALKING","DONKEY"), "A donkey spoke to its owner. And it saved his life.", "desert", [(D, 130, 172, .55, 1)], [("sheep", 60, 172)]),
+ g(("A ROYAL","ORDER"), "King Balak wanted the prophet Balaam to curse Israel. Balaam set out on his donkey.", "palace", [(So, 110, 172, .6, 1)], []),
+ g(("A BLOCKED","ROAD"), "But an angel with a sword stood in the road. The donkey saw it. Balaam could not.", "desert", [(D, 60, 172, .5, 0)], [("light", 140), ("glow", 140, 110, 28)]),
+ g(("BALAAM","STRIKES"), "The donkey turned away, and Balaam beat it. Then the donkey spoke: why did you hit me?", "desert", [(D, 60, 172, .5, 0)], [("sheep", 110, 172)]),
+ g(("EYES","OPENED"), "God opened Balaam's eyes, and he saw the angel. He bowed down, and obeyed God.", "dawn", [(D, 60, 172, .5, 0)], [("light", 130), ("glow", 130, 110, 28)]),
+ OC(("NUMBERS","22"))],
+"widowoil": [
+ g(("THE ENDLESS","OIL"), "A widow had nothing left but one small jar of oil. And it became a miracle.", "day", [(Ma, 90, 172, .6, 0)], [("house", 140, 36, 30)]),
+ g(("DEEP IN","DEBT"), "A widow was in deep debt. A creditor threatened to take her two sons as slaves.", "dusk", [(Ma, 70, 172, .55, 0)], [("house", 140, 36, 30)]),
+ g(("BORROW","JARS"), "The prophet Elisha told her: borrow as many empty jars as you can from your neighbors.", "day", [(Ma, 60, 172, .55, 0), (M, 130, 172, .6, 1)], [("table", 95)]),
+ g(("IT KEEPS","FLOWING"), "She began pouring from her small jar. It kept flowing until every jar was full.", "day", [(Ma, 90, 172, .55, 0)], [("glow", 90, 130, 26), ("table", 130)]),
+ g(("DEBT","PAID"), "Elisha told her: sell the oil, pay your debt, and live on the rest.", "dawn", [(Ma, 70, 172, .55, 0), (M, 125, 172, .6, 1)], [("glow", 90, 120, 22)]),
+ OC(("2 KINGS","4"))],
+"pentecost": [
+ g(("THE DAY","OF FIRE"), "Wind rushed through the room, and flames appeared above their heads.", "day", [(P, 60, 172, .5, 0), (D, 90, 172, .5, 0), (M, 120, 172, .5, 0)], [("flame", 60, 130, .5), ("flame", 90, 130, .5), ("flame", 120, 130, .5)]),
+ g(("WAITING","TOGETHER"), "After Jesus returned to heaven, his followers waited together in Jerusalem, and prayed.", "day", [(P, 60, 172, .5, 0), (D, 100, 172, .5, 0), (Ma, 140, 172, .5, 1)], [("house", 100, 36, 30)]),
+ g(("A RUSHING","WIND"), "Suddenly, a sound like a mighty wind filled the house. Flames rested on each of them.", "storm", [(P, 60, 172, .5, 0), (D, 100, 172, .5, 0), (Ma, 140, 172, .5, 1)], [("flame", 60, 130, .5), ("flame", 100, 130, .5), ("flame", 140, 130, .5)]),
+ g(("MANY","LANGUAGES"), "They began speaking in languages they had never learned. Visitors from many nations understood them.", "day", [(P, 90, 172, .6, 0)], [("crowd", 20, 90, 6, 176)]),
+ g(("THREE THOUSAND","JOINED"), "Peter preached boldly, and about three thousand people believed, and were baptized that day.", "day", [(P, 90, 172, .6, 0)], [("crowd", 20, 90, 6, 176), ("glow", 90, 130, 22)]),
+ OC(("ACTS","2"))],
+"tenvirgins": [
+ g(("TEN","BRIDESMAIDS"), "Ten bridesmaids waited for the groom. Five were ready, and five were not.", "night", [(Ma, 40, 172, .5, 0), (Ma, 70, 172, .5, 0), (Ma, 100, 172, .5, 0), (Ma, 130, 172, .5, 0)], [("flame", 40, 150, .5), ("flame", 70, 150, .5), ("flame", 100, 150, .5), ("flame", 130, 150, .5)]),
+ g(("THE LONG","WAIT"), "The groom was late, and they all fell asleep with their lamps burning.", "night", [(Ma, 60, 176, .45, 0), (Ma, 110, 176, .45, 0)], [("moon", 140, 40), ("flame", 60, 160, .5), ("flame", 110, 160, .5)]),
+ g(("LAMPS","RUNNING OUT"), "At midnight, a shout rang out: the groom is here! Five lamps were running out of oil.", "dark", [(Ma, 60, 172, .5, 0), (Ma, 110, 172, .5, 0)], [("flame", 60, 150, .3)]),
+ g(("TOO","LATE"), "The five unprepared women ran to buy more oil. While they were gone, the door was shut.", "night", [(Ma, 60, 172, .5, 0)], [("house", 130, 36, 30)]),
+ g(("BE","READY"), "Jesus said: stay awake and be ready, because you do not know the day or the hour.", "day", [(J, 90, 172, .6, 0)], [("glow", 90, 130, 22)]),
+ OC(("MATTHEW","25"))],
+})
